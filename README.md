@@ -1,6 +1,6 @@
 # Pick-A-Joke
 
-I created this just to have a fun homepage/new tab page using Google Chrome's *[New Tab Redirect]*(https://chromewebstore.google.com/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) extension.<br>
+I created this just to have a fun homepage/new tab page using Google Chrome's [*New Tab Redirect*](https://chromewebstore.google.com/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) extension.<br>
 <br>
 The page pulls from two different sources, one for the joke and one for the background. The joke is pulled from [this joke API](https://v2.jokeapi.dev/). It's a fun tool that I stumbled upon that is also customizable in terms of what types of jokes you want returned.<br>
 <br>
