@@ -13,19 +13,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-h1 {
-
-    color: #333;
-}
-
-p {
-    color: #666;
-}
-
 #joke {
-    /* margin-top: 20px; */
-    /* font-style: italic; */
-    /* color: #0077B6; */
     color: white;
     font-size: 50px;
     font-weight: bold;
