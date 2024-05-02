@@ -3,7 +3,7 @@ async function fetchRandomJoke() {
         .then(response => response.json());
 
     if (joke.type == "twopart") document.getElementById('joke').innerHTML = joke.setup + "<br>" + joke.delivery;
-    else document.getElementById('joke').innerHTML = joke;
+    else document.getElementById('joke').innerHTML = joke.joke;
 }
 
 function setBackground() {
