@@ -1,5 +1,5 @@
 async function fetchRandomJoke() {
-    var joke = await fetch('https://v2.jokeapi.dev/joke/Any')
+    var joke = await fetch('https://v2.jokeapi.dev/joke/Any' + window.location.search)
         .then(response => response.json());
 
     if (joke.type == "twopart") document.getElementById('joke').innerHTML = joke.setup + "<br>" + joke.delivery;
